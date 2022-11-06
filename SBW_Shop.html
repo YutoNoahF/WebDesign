@@ -12,20 +12,33 @@
         <div class="container-fluid p-3 bg-black text-white text-center">
             <h1>Soccer, BasketBall, and Waterpolo HyperLink</h1>
             <p>Equipped with all the equipment you will need.</p>
-            
         </div>
+        <!-- add navbar with dropdown btn groups for each item in sport under hyperlink catagory -->
         <nav class="navbar navbar-expand-sm bg-black justify-content-center navbar-dark">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="https://srsport.com/water-polo/goals-goals-accessories/"> Waterpolo Goals</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.swimoutlet.com/collections/water-polo-balls-20826"> Waterpolo Balls</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://turboswim.com/en/men/water-polo-suits/"> Waterpolo Swimsuits</a>
-                </li>
-            </ul>
+            <div class="btn-group">
+              <button type="button" class="btn btn-black text-white dropdown-toggle" data-bs-toggle="dropdown">Soccer</button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">ETC</a></li>
+                <li><a class="dropdown-item" href="#">ETC</a></li>
+              </ul>
+            </div>
+            <div class="btn-group">
+              <button type="button" class="btn btn-black text-white dropdown-toggle" data-bs-toggle="dropdown">Basketball</button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">ETC</a></li>
+                <li><a class="dropdown-item" href="#">ETC</a></li>
+              </ul>
+            </div>
+            <div class="btn-group">
+              <button type="button" class="btn btn-black text-white dropdown-toggle" data-bs-toggle="dropdown">Waterpolo</button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://srsport.com/water-polo/goals-goals-accessories/">Goals</a></li>
+                <li><a class="dropdown-item" href="https://www.swimoutlet.com/collections/water-polo-balls-20826">Balls</a></li>
+                <li><a class="dropdown-item" href="https://turboswim.com/en/men/water-polo-suits/">Swimsuits</a></li>
+              </ul>
+            </div>
+          </div>
         </nav>
+        <!-- I would recommend putting pictures, action shots, or some sort of promo for the items below the nav -->
     </body>
 </html>
